@@ -71,11 +71,12 @@ body {
      font-size : 12px;
 }
 #income-value,#expensis-value{
-    position: absolute;
-    left: 225px;
-    font-size: 18px;
-    text-align: right;
-    
+  position: absolute;
+	left: 190px;
+	font-size: 18px;
+	text-align: right;
+    margin-right : 10px;
+    padding-right: 10px;
     
 }
 #expensis-percentage{
