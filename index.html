@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Budgety</title>
+	<link href="https://fonts.googleapis.com/css?family=Open+Sans:100,300,400,600" rel="stylesheet" type="text/css">
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.4.1/css/all.css" integrity="sha384-5sAR7xN1Nv6T6+dT2mhtzEpVJvfS3NScPQTrOxhwjIuvcA67KV2R5Jz6kr4abQsz" crossorigin="anonymous">
+	<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+	<div>
+		<div id = 'section-1'>
+			<div id ="Budget">
+			
+			<div id  = "budget-head">
+			Available Budget in October 2018:
+            </div>
+
+			<div id = 'total'>
+				+10,304
+			</div>
+
+
+			<div id = 'income'>
+				<span id="income-head">income</span>
+				<span id = 'income-value'>+4,500</span>
+				<span id = 'income-percentage'>&nbsp;</span>
+			</div>
+
+
+             <div id = 'expensis'>
+				<span id="expensis-head">expenses</span>
+				<span id = 'expensis-value'>-4,000</span>
+				<span id = 'expensis-percentage'>45%</span>
+			</div>
+		</div>
+	</div>
+
+
+
+
+			<div id = 'section-2'>
+				<form>
+					<select name="Size"  id="drop">
+	                    <option value="inc" selected>+</option>
+						<option value="exp">-</option>
+                    </select>
+					<input type="text" id ="description" placeholder="Add description">
+					<input type="number" id ="value" placeholder="Value">
+				</form>
+				<button id="btn"><i class="far fa-check-circle"></i></button>
+			</div>
+		
+
+
+          <div id = 'section-3'>
+          		<div id = "income-list">
+          			<h2 id = "inc-h">income</h2>
+          <div id = "income-list">
+                 <!-- <div class = "inc-list" id = "inc-list-0">
+                 	<span class = "desc">Salary</span>
+                 	<span class = "val">12000</span>
+                 	<span class="cls" id = "cls-inc"><button class="cls-btn"><i class="far fa-times-circle"></i></button></span>
+                 </div>
+                 <div class = "inc-list" id = "inc-list-1">
+                 	<span class = "desc">Salary</span>
+                 	<span class = "val">12000</span>
+                 	<span class="cls" id = "cls-inc"><button class="cls-btn"><i class="far fa-times-circle"></i></button></span>
+                 </div> -->
+          		</div>
+          	</div>
+
+          	<div id = "expenses-list">
+          	<h2 id = "exp-h">expenses</h2>
+          	<div id = "expensis-list">
+             <!-- <div class = "exp-list" id = "exp-list-0">
+                 	<span class = "desc">rent</span>
+                 	<span class = "val">1200</span>
+                 	<span class = "percent">54%</span>
+                 	<span class="cls" id = "cls-exp"><button class="cls-btn"><i class="far fa-times-circle"></i></button></span>
+                 </div>
+
+
+                 <div class = "exp-list" id = "exp-list-1">
+                 	<span class = "desc">rent</span>
+                 	<span class = "val">1200</span>
+                 	<span class = "percent">54%</span>
+                 	<span class="cls" id = "cls-exp"><button class="cls-btn"><i class="far fa-times-circle"></i></button></span>
+                 </div> -->
+          		</div>
+              </div>
+
+          </div>
+   <script type="text/javascript" src="script.js"></script>
+</body>
+</html>
